@@ -15,3 +15,5 @@ __pycache__/
 *.log
 .DS_Store
 Thumbs.db
+# Archivo generado por el ejercicio Hola Mundo
+local-examples/01-hola-mundo/hola-mundo.txt
