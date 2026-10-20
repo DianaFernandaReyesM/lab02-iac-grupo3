@@ -37,11 +37,11 @@
 ### Terraform
 
 Salida de `terraform plan` (ejecutado por R1):
-![Evidencia de Terraform.](Terraform.JPEG)
+![Evidencia de Terraform.](Terraform.jpeg)
 
 ### Pulumi
 
-![Evidencia de Pulumi.](pulumi.JPEG)
+![Evidencia de Pulumi.](pulumi.jpeg)
 
 
 ---
