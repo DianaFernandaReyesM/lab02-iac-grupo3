@@ -27,8 +27,9 @@ resource "docker_image" "nginx" {
 
 # 3. Contenedor Nginx
 resource "docker_container" "web" {
-  name  = "${var.app_name}-${var.group_id}-tf"
-  image = docker_image.nginx.image_id
+  name         = "${var.app_name}-${var.group_id}-tf"
+  image        = docker_image.nginx.image_id
+  network_mode = "bridge"
 
   networks_advanced {
     name = docker_network.app_network.name
